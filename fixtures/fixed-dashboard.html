@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fixed Revenue Dashboard</title>
+    <style>
+      body { margin: 0; font-family: system-ui, sans-serif; letter-spacing: 0; }
+      .shell { max-width: 1120px; margin: 0 auto; padding: 24px; }
+      .chart { min-height: 260px; aspect-ratio: 16 / 7; background: #f4f6f8; }
+      .table-wrap { overflow-x: auto; }
+      table { width: 100%; border-collapse: collapse; min-width: 720px; }
+    </style>
+  </head>
+  <body>
+    <a href="#main">Skip to content</a>
+    <main id="main" class="shell">
+      <h1>Revenue Dashboard</h1>
+      <button aria-label="Refresh dashboard"><svg aria-hidden="true"></svg></button>
+      <div id="pipeline-chart" class="chart" role="img" aria-label="Pipeline chart"></div>
+      <a href="/exports/pipeline.csv">Export CSV</a>
+      <p role="status">Dashboard data loaded.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Account</th><th>Owner</th><th>Stage</th><th>Amount</th></tr></thead>
+          <tbody><tr><td>Acme</td><td>Ops</td><td>Closed Won</td><td>$12,000</td></tr></tbody>
+        </table>
+      </div>
+    </main>
+  </body>
+</html>
