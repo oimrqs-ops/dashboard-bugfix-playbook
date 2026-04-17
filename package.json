@@ -1,0 +1,10 @@
+{
+  "name": "dashboard-bugfix-playbook",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "audit": "node dashboard_audit.mjs fixtures/fixed-dashboard.html --output out/dashboard-report.md",
+    "test": "node --test test_dashboard_audit.mjs"
+  }
+}
