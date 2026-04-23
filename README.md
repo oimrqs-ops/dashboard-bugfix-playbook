@@ -43,3 +43,11 @@ node dashboard_audit.mjs fixtures/fixed-dashboard.html --output out/fixed-report
 ## Boundary
 
 This sample works on static HTML snapshots. Real client work may also include browser screenshots, console/network logs, Playwright smoke checks, local repros, and targeted CSS/JS patches.
+
+## OIMRQS Ops Context
+
+This repo is part of the OIMRQS Ops public proof shelf: focused programming and technical-ops work across web, internal tools, automations, data cleanup, dashboards, APIs, webhooks, QA and handoff.
+
+- Site: https://oimrqs-ops.x9kqz.uk/
+- Portfolio: https://oimrqs-ops.x9kqz.uk/portfolio/
+- Proof library: https://oimrqs-ops.x9kqz.uk/proof/
